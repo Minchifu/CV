@@ -1,0 +1,20 @@
+html,
+body {
+    margin: 0px;
+}
+
+body {
+    color: #333;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+
+    padding: 0px 50px;
+}
+
+p {
+    line-height: 60px;
+    font-size: 45px;
+}
+
+body {
+    font-size: 90px;
+}
