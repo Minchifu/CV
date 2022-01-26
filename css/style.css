@@ -10,6 +10,10 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
 header {
     padding-top: 50px;
 }
@@ -17,6 +21,7 @@ header {
 header h1 {
     text-align: center;
     font-size: 43px;
+    font-weight: 830;
 }
 header h4 {
     text-align: center;
@@ -25,6 +30,11 @@ header h4 {
     font-size: 16px;
 }
 
+strong:hover {
+    color: #FC5B30;
+    text-shadow: 1px 1px 1px #000 , 1px 1px 5px rgb(83, 83, 83) ;
+
+}
 
 main {
     max-width: 500px;
@@ -46,7 +56,8 @@ h1, h4, h3 {
 p {
     text-align: left;
     font-size: 10px;
-    font-smooth: inherit;
+    line-height: 16px;
+
 }
 
 
@@ -63,6 +74,7 @@ img {
 
 img:hover {
           border: 3px solid #fb4613;
+          cursor:wait;
           transition-duration: 1s;
 }
 
@@ -81,7 +93,7 @@ button {
 .fade:hover {
     background-color: #FC5B30;
   }
-  
+
 /* .fade:focus,
 .fade:active {
     background-color: black;
